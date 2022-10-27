@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="image-container">
+            <div class="logo-container">
+                <img class="logo-img" src="./odin-logo.png" alt="">
+                <h1 class="logo-text">ODIN</h1>
+            </div>
+            <div class="footer-text">
+                Photo by <a href="https://unsplash.com/@walling?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Walling</a> on <a href="https://unsplash.com/s/photos/software-engineer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="introduction">
+                <p class="intro-text">This is not an online service. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat numquam dignissimos sint illum magnam, maiores officiis, commodi a voluptates asperiores distinctio facere! Nemo similique totam fuga fugit quia assumenda unde?</p>
+                <p class="sub-text">You <em>know</em> what to do!</p>
+            </div>
+            <form action="#">
+                <div class="form-container">
+                    <p>Let's do this!</p>
+                    <fieldset>
+                        <div class="form-cell">
+                            <label for="first_name">first name</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+                        <div class="form-cell">
+                            <label for="last_name">last name</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <div class="form-cell">
+                            <label for="email">email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-cell">
+                            <label for="number">number</label>
+                            <input type="number" id="number" name="number">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <div class="form-cell">
+                            <label for="password">password</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="form-cell">
+                            <label for="confirm_pw">confirm password</label>
+                            <input type="password" id="confirm_pw" name="confirm_pw">
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="button-container">
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="#">log in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
